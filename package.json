@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.html",
+  "watch": {
+    "build:css": {
+      "extensions": "css",
+      "quiet": false
+    }
+  },
+  "scripts": {
+    "watch:t": "npm-watch build:css",
+    "build:css": "tailwind build src/style.css -o public/assets/css/style.css"
+  },
+  "author": "Iroshan De Zilva",
+  "license": "MIT ",
+  "dependencies": {
+    "npm-watch": "^0.7.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
