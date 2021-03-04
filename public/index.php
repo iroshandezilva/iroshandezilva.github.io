@@ -1,63 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!--    <link rel="canonical" href="https://iroshandezilva.com"/>-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Primary Meta Tags -->
-    <title>Iroshan De Zilva - User Interface and Experience Designer</title>
-    <meta name="title" content="Iroshan De Zilva - User Interface and Experience Designer">
-    <meta name="description" content="UI UX Designer at Bhahsha. Currently designing thoughtful experiences to help designers, product managers and engineers collaborate better together. Custom UX/UI Design, Prototyping, Front-end Development and Digital Strategy Consulting.">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://iroshandezilva.com/">
-    <meta property="og:title" content="Iroshan De Zilva - User Interface and Experience Designer">
-    <meta property="og:description" content="UI UX Designer at Bhahsha.Currently designing thoughtful experiences to help designers, product managers and engineers collaborate better together. Custom UX/UI Design, Prototyping, Front-end Development and Digital Strategy Consulting.">
-    <meta property="og:image" content="https://iroshandezilva.com/snap.webp">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://iroshandezilva.com/">
-    <meta property="twitter:title" content="Iroshan De Zilva - User Interface and Experience Designer">
-    <meta property="twitter:description" content="UI UX Designer at Bhahsha.Currently designing thoughtful experiences to help designers, product managers and engineers collaborate better together. Custom UX/UI Design, Prototyping, Front-end Development and Digital Strategy Consulting.">
-    <meta property="twitter:image" content="https://iroshandezilva.com/snap.webp">
-
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.webp?v=A05baxrqRo">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.webp?v=A05baxrqRo">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.webp?v=A05baxrqRo">
-    <link rel="manifest" href="site.webmanifest?v=A05baxrqRo">
-    <link rel="mask-icon" href="safari-pinned-tab.svg?v=A05baxrqRo" color="#5bbad5">
-    <link rel="shortcut icon" href="favicon.ico?v=A05baxrqRo">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-    <link rel="stylesheet" href="assets/css/cursor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144371888-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-144371888-1');
-    </script>
-
-    
-</head>
-
-
-<body>
+<?php include "header.php"?>
 
 <nav class="main-navigation-wrapper bg-white lg:bg-transparent">
     <div class="container">
@@ -98,7 +39,7 @@
         </div>
         <div class="mobilenav-social text-center">
             <a class="btn " href="mailto:hello@iroshandezilva.com">hello@iroshandezilva.com</a>
-            <div class="flex justify-center">
+            <div class="flex justify-center mt-5">
                 <div class="social-item">
                     <a href="https://www.facebook.com/iroshandezilva/"><i class="fab fa-facebook-f"></i></a>
                 </div>
@@ -137,7 +78,7 @@
                 <div class="hi-wrapper">
                     <div class="hi-content card absolute w-10/12 xl:w-3/12 md:w-5/12  lg:w-4/12 flex top  items-center  justify-center">
                         <div class="w-3/12 mr-3">
-                            <img src="assets/img/hand-shake.webp">
+                            <div class="text-6xl">👋🏻</div>
                         </div>
                         <div class="w-9/12">
                             <small>Hello, I am</small>
@@ -463,61 +404,5 @@
     </div>
 </div>
 
-<footer  class="text-center py-3">
-    <small>© 2020 All rights reserved. – <b>Designed & Coded by Iroshan De Zilva</b></small>
-</footer>
+<?php include "footer.php"?>
 
-
-<div class="flex items-center justify-center">
-    <div class="toast  fade "id="myTost">
-        <div class="toast-body">
-            <div class="close">
-                <i class="far fa-times"></i>
-            </div>
-            <h5 class="font-bold font-proxima-bl">Hi there 👋</h5>
-            <p>I'm glad you contact with me <a href="mailto:hello@iroshandezilva.com">Contact me</a></p>
-        </div>
-    </div>
-</div>
-
-<!-- Start Section Loader -->
-<section class="loading_overlay">
-    <div class="loader_logo">
-        <img class="logo" src="assets/img/iroshandezilva-logo.svg" />
-    </div>
-</section>
-<!-- End. Loader -->
-
-<!-- Back to top with progress indicator-->
-<div class="prgoress_indicator">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-</div>
-
-
-
-<!-- jquery -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/kursor@0.1.6/dist/kursor.js"></script>
-
-<!-- gsap 3 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-        crossorigin="anonymous"></script>
-
-<!-- CSSRulePlugin -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js"
-        integrity="sha512-6MT8e40N5u36Um5SXKtwZmoKcCSg1XaKtexnXZPpQ4iJDHrBEHXKz37fnDovXezsaCd4oKCH5Y+vrcl7qpLPoA=="
-        crossorigin="anonymous"></script>
-
-<!-- ScrollMagic -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-
-<!-- Main Js -->
-<script src="assets/js/main.js"></script>
-
-
-</body>
-</html>

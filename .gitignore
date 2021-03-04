@@ -102,3 +102,22 @@ dist
 
 # TernJS port file
 .tern-port
+.idea
+.idea/codeStyles/codeStyleConfig.xml
+.idea/deployment.xml
+.idea/iroshandezilva.com.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/webServers.xml
+.idea/workspace.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/iroshandezilva.com.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/codeStyles/codeStyleConfig.xml
+public/.ftpquota
+public/.DS_Store
+public/assets/.DS_Store
+.idea/iroshandezilva.com.iml
+public/.DS_Store
+public/assets/.DS_Store

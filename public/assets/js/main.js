@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    console.log("අම්මට හුඩු ");
+    console.log("මොනාද හොයන්නේ මෙතන ");
     /*-----------------------------
       Fixed Navigation
     -----------------------------*/
@@ -139,7 +139,8 @@ $(document).ready(function () {
         tl.to(overlay, {
             duration: 1.4,
             ease: "Power2.easeInOut",
-            width: "0%"
+            width: "0%",
+
         });
 
         return tl;

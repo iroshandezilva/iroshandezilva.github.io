@@ -17,6 +17,6 @@
   "license": "MIT ",
   "dependencies": {
     "npm-watch": "^0.7.0",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^2.0.3"
   }
 }
