@@ -1,6 +1,6 @@
 
 <footer  class="text-center py-3">
-    <small>© <script>document.write(new Date().getFullYear()) </script>  All rights reserved. – <b>Designed & Coded by Iroshan De Zilva</b></small>
+    <small>© <script>document.write(new Date().getFullYear()) </script>  All rights reserved. – <b>Designed in <a target="_blank" href="http://figma.com/">Figma</a> & Built with <a target="_blank" href="https://tailwindcss.com/">TailwindCss</a> by Iroshan De Zilva</b></small>
 </footer>
 
 
@@ -46,9 +46,24 @@
 <!-- ScrollMagic -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+
+
+
 <!-- Main Js -->
 <script src="assets/js/main.js"></script>
 
+
+<script>
+    new kursor({
+        type: 2
+    })
+</script>
+
+<!--Tidio Live chat script-->
+<!--<script src="//code.tidio.co/tb5dibosc8zqofndppla1sklaf7mttm6.js" async></script>-->
 
 </body>
 </html>

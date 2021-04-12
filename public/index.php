@@ -1,67 +1,4 @@
-<?php include "header.php"?>
-
-<nav class="main-navigation-wrapper bg-white lg:bg-transparent">
-    <div class="container">
-        <div class="main-navigation flex justify-between content-center items-center flex-wrap py-4">
-            <div class="logo ">
-                <img src="assets/img/iroshandezilva-logo.svg">
-            </div>
-            <button class="navbar-toggler menu ripplemenu block lg:hidden">
-                <svg viewBox="0 0 64 48">
-                    <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                    <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                    <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
-                </svg>
-            </button>
-            <div class="navigation-wrapper flex content-center flex-wrap hidden lg:block">
-                <div class="navigation">
-                    <div class="menu-wrapper flex">
-                        <div class="menu-item active k-hover1"><a href="/">Home</a></div>
-                        <div class="menu-item"><a href="#aboutme"> About Me</a></div>
-                        <div class="menu-item"><a href="#portfolio">Portfolio</a></div>
-                        <div class="menu-item"><a href="#contactme">Contact Me</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-
-<div class="mobilenav-overlay ">
-    <div class="mobilenav-content container">
-        <div class="mobilenav-wrapper">
-            <div class="mobile-menu flex">
-                <div class="mobile-menu-item"><a href="/">Home</a></div>
-                <div class="mobile-menu-item"><a href="#aboutme"> About Me</a></div>
-                <div class="mobile-menu-item"><a href="#portfolio">Portfolio</a></div>
-                <div class="mobile-menu-item"><a href="#contactme">Contact Me</a></div>
-            </div>
-        </div>
-        <div class="mobilenav-social text-center">
-            <a class="btn " href="mailto:hello@iroshandezilva.com">hello@iroshandezilva.com</a>
-            <div class="flex justify-center mt-5">
-                <div class="social-item">
-                    <a href="https://www.facebook.com/iroshandezilva/"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="social-item ">
-                    <a href="https://www.instagram.com/iroshandezilva/"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://www.linkedin.com/in/iroshandezilva/"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="social-item ">
-                    <a href="https://dribbble.com/iroshandezilva"><i class="fab fa-dribbble"></i></a>
-                </div>
-                <div class="social-item ">
-                    <a href="https://www.behance.net/iroshandezilva"><i class="fab fa-behance"></i></a>
-                </div>
-                <div class="social-item ">
-                    <a href="https://github.com/iroshandezilva/"><i class="fab fa-github-alt"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include "header.php" ?>
 
 
 <div class="section section-one relative ">
@@ -70,7 +7,7 @@
             <div class="w-full lg:w-7/12 mx-auto relative">
                 <div class="landing-img-wrapper">
                     <div class="landing-img">
-                        <img src="assets/img/iroshandezilva-img-1.webp">
+                        <img src="assets/img/iroshandezilva-img-1.webp" alt="Iroshan De Zilva Cover Image">
                     </div>
                 </div>
             </div>
@@ -82,7 +19,7 @@
                         </div>
                         <div class="w-9/12">
                             <small>Hello, I am</small>
-                            <h5 class="font-proxima-md size text-2xl">Iroshan De Zilva</h5>
+                            <h1 class="font-proxima-md size text-2xl">Iroshan De Zilva</h1>
                         </div>
                     </div>
                 </div>
@@ -129,7 +66,7 @@
             <div class="title-wrapper inline-block mb-10">
                 <div class="title">
                     <small class="text-base ">How i work</small>
-                    <h2 class="font-proxima-bl text-title mt-3">Design Process</h2>
+                    <h2 class="font-proxima-bl text-title">Design Process</h2>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
@@ -189,7 +126,8 @@
                         <div class="portfolio-thum-img">
                             <div class="img-container">
                                 <div class="img-overlay"></div>
-                                <img src="assets/img/Rectangle%206.webp">
+                                <img src="assets/img/portfolio-img/webp/allianz-iinsurance-lanka-mobile-app-ui-design.webp"
+                                     alt="Allianz Insurance Mobile App UI UX Design">
                             </div>
                         </div>
                     </div>
@@ -199,7 +137,8 @@
                         <div class="portfolio-thum-img">
                             <div class="img-container">
                                 <div class="img-overlay"></div>
-                                <img src="assets/img/Rectangle%207.webp">
+                                <img src="assets/img/portfolio-img/webp/direct-messaging-web-redesign.webp"
+                                     alt="Direct Messaging UI UX Design">
                             </div>
                         </div>
                     </div>
@@ -209,7 +148,8 @@
                         <div class="portfolio-thum-img">
                             <div class="img-container">
                                 <div class="img-overlay"></div>
-                                <img src="assets/img/Rectangle%208.webp">
+                                <img src="assets/img/portfolio-img/webp/helakuru-calendar-redesign.webp"
+                                     alt="Helakuru Calendar UI UX Redesign">
                             </div>
                         </div>
                     </div>
@@ -219,27 +159,8 @@
                         <div class="portfolio-thum-img">
                             <div class="img-container">
                                 <div class="img-overlay"></div>
-                                <img src="assets/img/Rectangle%206.webp">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-thum-wrapper">
-                    <div class="portfolio-thum">
-                        <div class="portfolio-thum-img">
-                            <div class="img-container">
-                                <div class="img-overlay"></div>
-                                <img src="assets/img/Rectangle%2010.webp">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-thum-wrapper">
-                    <div class="portfolio-thum">
-                        <div class="portfolio-thum-img">
-                            <div class="img-container">
-                                <div class="img-overlay"></div>
-                                <img src="assets/img/Rectangle%2011.webp">
+                                <img src="assets/img/portfolio-img/webp/helakuru-keyboard-redesign.webp"
+                                     alt="helakuru Keyboard UI UX Redesign">
                             </div>
                         </div>
                     </div>
@@ -257,7 +178,7 @@
                     <div class="title-wrapper inline-block mb-10">
                         <div class="title">
                             <small class="text-base ">My Clients</small>
-                            <h2 class="font-proxima-bl text-title mt-3">We’re going to became partners for the long
+                            <h2 class="font-proxima-bl text-title ">We’re going to became partners for the long
                                 run.</h2>
                         </div>
                     </div>
@@ -266,47 +187,47 @@
                     <div class="grid grid-cols-3  gap-10">
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/afq-marketing.webp">
+                                <img src="assets/img/clients/afq-marketing.webp" alt="AFQ Marketing">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/afq-records.webp">
+                                <img src="assets/img/clients/afq-records.webp" alt="AFQ Records">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/cipm.webp">
+                                <img src="assets/img/clients/cipm.webp" alt="Chartered Institute of Personnel Management">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/cortex.webp">
+                                <img src="assets/img/clients/cortex.webp" alt="Cortex">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/costa.webp">
+                                <img src="assets/img/clients/costa.webp" alt="Costa Marly">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/freshworks-studio.webp">
+                                <img src="assets/img/clients/freshworks-studio.webp" alt="Freshwork Studio">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/hunterslk.png">
+                                <img src="assets/img/clients/hunterslk.png" alt="Hunterslk Photography">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/Attempt_Imposible_logo.webp">
+                                <img src="assets/img/clients/Attempt_Imposible_logo.webp" alt="Attempt Imposible">
                             </div>
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/solar-digital.webp">
+                                <img src="assets/img/clients/solar-digital.webp" alt="Solar Digital">
                             </div>
                         </div>
                     </div>
@@ -326,7 +247,7 @@
                             <div class="title-wrapper inline-block mb-10">
                                 <div class="title">
                                     <small class="text-base ">Nice to meet you</small>
-                                    <h2 class="font-proxima-bl text-title mt-3">Hi there, I’m Iroshan</h2>
+                                    <h2 class="font-proxima-bl text-title ">Hi there, I’m Iroshan</h2>
                                 </div>
                             </div>
                             <h4 class="font-proxima-lt mb-4">My name is Iroshan De Zilva. I work as a User Interface &
@@ -348,22 +269,27 @@
                         <p class="mb-5"><b>Hint:</b>I’m especially active on Instagram and Twitter.</p>
                         <div class="social-media-wrapper">
                             <div class="social-item">
-                                <a href="https://www.facebook.com/iroshandezilva/"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="https://www.facebook.com/iroshandezilva/"><i class="fab fa-facebook-f"></i>
+                                    Facebook</a>
                             </div>
                             <div class="social-item ">
-                                <a href="https://www.instagram.com/iroshandezilva/"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="https://www.instagram.com/iroshandezilva/"><i class="fab fa-instagram"></i>
+                                    Instagram</a>
                             </div>
                             <div class="social-item">
-                                <a href="https://www.linkedin.com/in/iroshandezilva/"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+                                <a href="https://www.linkedin.com/in/iroshandezilva/"><i class="fab fa-linkedin-in"></i>
+                                    Linkedin</a>
                             </div>
                             <div class="social-item ">
-                                <a href="https://dribbble.com/iroshandezilva"><i class="fab fa-dribbble"></i> Dribble</a>
+                                <a href="https://dribbble.com/iroshandezilva"><i class="fab fa-dribbble"></i>
+                                    Dribble</a>
                             </div>
                             <div class="social-item ">
                                 <a href="https://www.behance.net/iroshandezilva"><i class="fab fa-behance"></i> Behance</a>
                             </div>
                             <div class="social-item ">
-                                <a href="https://github.com/iroshandezilva/"><i class="fab fa-github-alt"></i> Github</a>
+                                <a href="https://github.com/iroshandezilva/"><i class="fab fa-github-alt"></i>
+                                    Github</a>
                             </div>
                         </div>
                     </div>
@@ -379,13 +305,15 @@
             <div class="title-wrapper inline-block mb-10">
                 <div class="title ">
                     <small class="text-base ">Get in touch</small>
-                    <h2 class="font-proxima-bl text-title mt-3">Let’s work together</h2>
+                    <h2 class="font-proxima-bl text-title ">Let’s work together</h2>
                 </div>
             </div>
             <div class="lets-wroktogather-wrapper mx-auto w-full lg:w-8/12">
                 <div class="lets-wroktogather">
-                    <p class="font-proxima-lt">If you have a website or mobile app idea in mind or you need some advice about
-                        product design, feel free to contact me. Currently my time books quickly, so the sooner you write, the
+                    <p class="font-proxima-lt">If you have a website or mobile app idea in mind or you need some advice
+                        about
+                        product design, feel free to contact me. Currently my time books quickly, so the sooner you
+                        write, the
                         better it is for both of us.</p>
                     <div class="email-within flex my-5 items-center justify-center mx-auto">
                         <div class="">
@@ -404,5 +332,5 @@
     </div>
 </div>
 
-<?php include "footer.php"?>
+<?php include "footer.php" ?>
 

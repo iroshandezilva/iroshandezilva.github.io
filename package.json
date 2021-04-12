@@ -1,22 +1,30 @@
 {
-  "name": "portfolio",
+  "name": "iroshandezilva",
   "version": "1.0.0",
-  "description": "My Portfolio",
-  "main": "index.html",
-  "watch": {
-    "build:css": {
-      "extensions": "css",
-      "quiet": false
-    }
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "watch:t": "npm-watch build:css",
-    "build:css": "tailwind build src/style.css -o public/assets/css/style.css"
+    "build": "tailwindcss build ./src/style.css -o ./public/assets/css/style.css",
+    "prod": "NODE_ENV=production postcss  build ./src/style.css -o ./public/assets/css/style.css",
+    "watch": "onchange 'tailwind.config.js'  '/src/**/*/css' -- npm run build "
   },
-  "author": "Iroshan De Zilva",
-  "license": "MIT ",
-  "dependencies": {
-    "npm-watch": "^0.7.0",
-    "tailwindcss": "^2.0.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iroshandezilva/iroshandezilva.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iroshandezilva/iroshandezilva.com/issues"
+  },
+  "homepage": "https://github.com/iroshandezilva/iroshandezilva.com#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.0",
+    "onchange": "^7.1.0",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
   }
 }

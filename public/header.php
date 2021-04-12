@@ -1,3 +1,5 @@
+<?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,29 +11,32 @@
     <title>Iroshan De Zilva - User Interface and Experience Designer</title>
     <meta name="title" content="Iroshan De Zilva - User Interface and Experience Designer">
     <meta name="description" content="UI UX Designer at Bhahsha. Currently designing thoughtful experiences to help designers, product managers and engineers collaborate better together. Custom UX/UI Design, Prototyping, Front-end Development and Digital Strategy Consulting.">
+    <meta name="keywords" content="UI UX designer Sri Lanka, UI designer, UX designer, mobile UI design, graphic designer, web developer, front-end developer, Figma, freelancer, web development">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://iroshandezilva.com/">
     <meta property="og:title" content="Iroshan De Zilva - User Interface and Experience Designer">
     <meta property="og:description" content="UI UX Designer at Bhahsha.Currently designing thoughtful experiences to help designers, product managers and engineers collaborate better together. Custom UX/UI Design, Prototyping, Front-end Development and Digital Strategy Consulting.">
-    <meta property="og:image" content="https://iroshandezilva.com/snap.webp">
+    <meta property="og:image" content="https://iroshandezilva.com/assets/img/iroshandezilva-meta.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://iroshandezilva.com/">
     <meta property="twitter:title" content="Iroshan De Zilva - User Interface and Experience Designer">
     <meta property="twitter:description" content="UI UX Designer at Bhahsha.Currently designing thoughtful experiences to help designers, product managers and engineers collaborate better together. Custom UX/UI Design, Prototyping, Front-end Development and Digital Strategy Consulting.">
-    <meta property="twitter:image" content="https://iroshandezilva.com/snap.webp">
+    <meta property="twitter:image" content="https://iroshandezilva.com/assets/img/iroshandezilva-meta.png">
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.webp?v=A05baxrqRo">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.webp?v=A05baxrqRo">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.webp?v=A05baxrqRo">
-    <link rel="manifest" href="assets/img/favicons/site.webmanifest?v=A05baxrqRo">
-    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg?v=A05baxrqRo" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/img/favicons/favicon.ico?v=A05baxrqRo">
-    <meta name="msapplication-TileColor" content="#da532c">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
@@ -42,6 +47,17 @@
 
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <!-- Hotjar Tracking Code for iroshandezilva.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2285000,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144371888-1"></script>
@@ -54,7 +70,85 @@
     </script>
 
 
+
+
+
+
 </head>
+<?php
+$link_exp = explode("/",$actual_link);
+$final_key =  $link_exp[count($link_exp)-1]
+?>
+
+<body>
+
+
+
+<nav class="main-navigation-wrapper bg-white lg:bg-transparent">
+    <div class="container">
+        <div class="main-navigation flex justify-between content-center items-center flex-wrap py-4">
+            <div class="logo ">
+                <img src="assets/img/iroshandezilva-logo.svg" alt="Iroshan De Zilva UI UX Designer">
+            </div>
+            <button class="navbar-toggler menu ripplemenu block lg:hidden">
+                <svg viewBox="0 0 64 48">
+                    <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                    <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                    <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                </svg>
+            </button>
+            <div class="navigation-wrapper flex content-center flex-wrap hidden lg:block">
+                <div class="navigation">
+                    <div class="menu-wrapper flex">
+                        <div class="menu-item <?php echo ($final_key == "" || $final_key == "index.php") ? 'active' : null?>"><a class="k-hover2" href="index.php">Home</a></div>
+                        <div class="menu-item <?php echo ($final_key == "about-me" || $final_key == "about-me.php") ? 'active' : null?>"><a class="k-hover3 " href="about-me.php"> About Me</a></div>
+                        <div class="menu-item <?php echo ($final_key == "portfolio" || $final_key == "portfolio.php") ? 'active' : null?>"><a href="portfolio.php">Portfolio</a></div>
+                        <div class="menu-item <?php echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?>"><a href="contact-me.php">Contact Me</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="mobilenav-overlay ">
+    <div class="mobilenav-content container">
+        <div class="mobilenav-wrapper">
+            <div class="mobile-menu flex">
+                <div class="mobile-menu-item"><a href="index.php">Home</a></div>
+                <div class="mobile-menu-item"><a href="about-me.php"> About Me</a></div>
+                <div class="mobile-menu-item"><a href="portfolio.php">Portfolio</a></div>
+                <div class="mobile-menu-item"><a href="contact-me.php">Contact Me</a></div>
+            </div>
+        </div>
+        <div class="mobilenav-social text-center">
+            <a class="btn " href="mailto:hello@iroshandezilva.com">hello@iroshandezilva.com</a>
+            <div class="flex justify-center mt-5">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/iroshandezilva/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="social-item ">
+                    <a href="https://www.instagram.com/iroshandezilva/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/iroshandezilva/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="social-item ">
+                    <a href="https://dribbble.com/iroshandezilva"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <div class="social-item ">
+                    <a href="https://www.behance.net/iroshandezilva"><i class="fab fa-behance"></i></a>
+                </div>
+                <div class="social-item ">
+                    <a href="https://github.com/iroshandezilva/"><i class="fab fa-github-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- Pre Loader -->
 <!--<section class="loading_overlay">-->
