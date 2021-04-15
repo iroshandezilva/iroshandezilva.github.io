@@ -28,14 +28,14 @@ img {
 }
 
 a{
-    @apply text-blue;
+    @apply text-yellow;
 }
 
 small{
     line-height: 22px;
 }
 .img-overlay {
-    @apply bg-blue w-full h-full absolute top-0 left-0 ;
+    @apply bg-yellow w-full h-full absolute top-0 left-0 ;
     z-index: 2;
 }
 
@@ -44,7 +44,7 @@ small{
 }
 
 .btn{
-    @apply bg-blue text-white py-3 px-10 text-base transition-all duration-500 inline-block ;
+    @apply bg-yellow text-white py-3 px-10 text-base transition-all duration-500 inline-block ;
     border-radius: 10px;
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(28,35,139,.1), 0 2px 5px rgba(41,52,204,.2);
 }
@@ -92,11 +92,11 @@ small{
 
 .menu-item a:hover,
 .menu-item.active a {
-    @apply text-blue;
+    @apply text-yellow;
 }
 
 .menu-item:before {
-    @apply absolute opacity-0 bg-blue w-0 h-0 rounded-full transition-all duration-500;
+    @apply absolute opacity-0 bg-yellow w-0 h-0 rounded-full transition-all duration-500;
     content: "";
     left: calc(50% - 4px);
     top: -30px;
@@ -151,7 +151,7 @@ small{
 }
 
 .social-item:hover i {
-    @apply bg-blue text-white;
+    @apply bg-yellow text-white;
 }
 
 
@@ -569,7 +569,7 @@ element.style {
     fill: none;
 }
 .prgoress_indicator svg.progress-circle path {
-    stroke: #165df5;
+    stroke: #ffa503;
     stroke-width: 4;
     box-sizing: border-box;
     -webkit-transition: all 200ms linear !important;
