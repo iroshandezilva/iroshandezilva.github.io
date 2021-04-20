@@ -84,9 +84,9 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
+# Comment in the docs line in if your project uses Gatsby and *not* Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+# docs
 
 # vuepress build output
 .vuepress/dist
@@ -115,10 +115,10 @@ dist
 .idea/modules.xml
 .idea/vcs.xml
 .idea/codeStyles/codeStyleConfig.xml
-public/.ftpquota
-public/.DS_Store
-public/assets/.DS_Store
+docs/.ftpquota
+docs/.DS_Store
+docs/assets/.DS_Store
 .idea/iroshandezilva.com.iml
-public/.DS_Store
-public/assets/.DS_Store
+docs/.DS_Store
+docs/assets/.DS_Store
 .DS_Store

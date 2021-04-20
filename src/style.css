@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-@import "public/assets/css/mixing.scss";
+@import "docs/assets/css/mixing.scss";
 
 body {
     @apply bg-light w-full h-full font-proxima-rg text-black relative;
