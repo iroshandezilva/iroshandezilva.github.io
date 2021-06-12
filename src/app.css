@@ -4,13 +4,11 @@
 
 @tailwind utilities;
 
-@import "docs/assets/css/mixing.scss";
+@import "public/assets/css/mixing.scss";
+
 
 body {
-    @apply bg-light w-full h-full font-proxima-rg text-black relative;
-    font-size: 21px;
-    line-height: 33px;
-
+    @apply relative w-full h-full bg-base-primary-50 text-xl leading-6 font-sans text-base-black;
 }
 
 img {
@@ -18,24 +16,22 @@ img {
 }
 
 .img-container {
-    @apply relative overflow-hidden ;
-    visibility: hidden;
-    border-radius: 10px;
+    @apply relative overflow-hidden  invisible rounded-xl;
 }
 
 .img-container img {
-    object-fit: cover;
+    @apply object-contain;
 }
 
 a{
-    @apply text-yellow;
+    @apply text-base-primary-500;
 }
 
 small{
-    line-height: 22px;
+   @apply leading-5;
 }
 .img-overlay {
-    @apply bg-yellow w-full h-full absolute top-0 left-0 ;
+    @apply bg-base-primary-500 w-full h-full absolute top-0 left-0 ;
     z-index: 2;
 }
 
@@ -44,8 +40,7 @@ small{
 }
 
 .btn{
-    @apply bg-yellow text-white py-3 px-10 text-base transition-all duration-500 inline-block ;
-    border-radius: 10px;
+    @apply  rounded-xl bg-base-primary-500 text-white py-3 px-10 text-base transition-all duration-500 inline-block ;
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(28,35,139,.1), 0 2px 5px rgba(41,52,204,.2);
 }
 
@@ -83,20 +78,20 @@ small{
 }
 
 .menu-item {
-    @apply py-2 px-4 mx-1 text-black transition-all duration-500 font-proxima-md relative text-base;
+    @apply py-2 px-4 mx-1 text-base-black transition-all duration-500 font-sans relative text-base;
 }
 
 .menu-item a{
-    @apply text-black;
+    @apply text-base-black;
 }
 
 .menu-item a:hover,
 .menu-item.active a {
-    @apply text-yellow;
+    @apply text-base-primary-500;
 }
 
 .menu-item:before {
-    @apply absolute opacity-0 bg-yellow w-0 h-0 rounded-full transition-all duration-500;
+    @apply absolute opacity-0 bg-base-primary-500 w-0 h-0 rounded-full transition-all duration-500;
     content: "";
     left: calc(50% - 4px);
     top: -30px;
@@ -109,7 +104,7 @@ small{
 
 
 .card {
-    @apply bg-white px-5 py-8 rounded-card shadow-card ;
+    @apply bg-white p-8 rounded-card shadow-card;
 }
 
 .hi-content {
@@ -123,7 +118,7 @@ small{
 }
 
 .landing-social-content:after {
-    @apply bg-black absolute ;
+    @apply bg-base-black absolute ;
     top: -100%;
     content: '';
     width: 2px;
@@ -133,8 +128,8 @@ small{
 }
 
 .landing-social-content:before {
-    @apply bg-light absolute ;
-    top: calc(-64% - 1px);
+    @apply bg-base-primary-50 absolute ;
+    top: calc(-90% - 1px);
     content: '';
     width: 2px;
     height: 15%;
@@ -143,7 +138,7 @@ small{
 }
 
 .social-item i {
-    @apply bg-white text-center rounded-full mb-3 text-black transition-all duration-500;
+    @apply bg-white text-center rounded-full mb-3 text-base-black transition-all duration-500;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -151,7 +146,7 @@ small{
 }
 
 .social-item:hover i {
-    @apply bg-yellow text-white;
+    @apply bg-base-primary-500 text-white;
 }
 
 
@@ -159,11 +154,11 @@ small{
   Menu Mobile
 -----------------------------*/
 .menu {
-    @apply text-black p-0 m-0 outline-none relative border-none bg-none cursor-pointer;
+    @apply text-base-black p-0 m-0 outline-none relative border-none bg-none cursor-pointer;
     width: 36px;
     height: 36px;
     -webkit-appearence: none;
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highbase-primary-50-color: transparent;
 }
 
 .menu:focus {
@@ -252,7 +247,7 @@ small{
     overflow-x: hidden;
     overflow-y: visible;
     -webkit-overflow-scrolling: touch;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highbase-primary-50-color: rgba(0, 0, 0, 0);
 }
 
 .mobilenav-active {
@@ -295,7 +290,7 @@ small{
 
 }
 .mobile-menu-item a{
-    @apply text-black ;
+    @apply text-base-black;
     font-size: 22px;
 }
 

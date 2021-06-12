@@ -102,8 +102,8 @@ $final_key =  $link_exp[count($link_exp)-1]
                     <div class="menu-wrapper flex">
                         <div class="menu-item <?php echo ($final_key == "" || $final_key == "index.php") ? 'active' : null?>"><a class="k-hover2" href="index.php">Home</a></div>
                         <div class="menu-item <?php echo ($final_key == "about-me" || $final_key == "about-me.php") ? 'active' : null?>"><a class="k-hover3 " href="about-me.php"> About Me</a></div>
-                        <div class="menu-item <?php echo ($final_key == "portfolio" || $final_key == "portfolio.php") ? 'active' : null?>"><a href="portfolio.php">Portfolio</a></div>
-                        <div class="menu-item <?php echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?>"><a href="contact-me.php">Contact Me</a></div>
+                        <div class="menu-item"><a target="_blank" href="https://dribbble.com/iroshandezilva">Portfolio</a></div>
+<!--                        <div class="menu-item --><?php //echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?><!--"><a href="contact-me.php">Contact Me</a></div>-->
                     </div>
                 </div>
             </div>

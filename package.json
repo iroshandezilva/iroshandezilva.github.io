@@ -1,30 +1,25 @@
 {
-  "name": "iroshandezilva",
+  "name": "tailwind-setup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "watch": {
+    "prod" : "./src/*.css"
+  },
   "scripts": {
-    "build": "tailwindcss build ./src/style.css -o docs/assets/css/style.css",
-    "prod": "NODE_ENV=production postcss  build ./src/style.css -o docs/assets/css/style.css",
-    "watch": "onchange 'tailwind.config.js'  '/src/**/*/css' -- npm run build "
+    "dev": "postcss src/app.css -o public/assets/css/style.css",
+    "prod": "cross-env NODE_ENV=production postcss src/app.css -o public/assets/css/style.css",
+    "watch": "npm-watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iroshandezilva/iroshandezilva.com.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iroshandezilva/iroshandezilva.com/issues"
-  },
-  "homepage": "https://github.com/iroshandezilva/iroshandezilva.com#readme",
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "cssnano": "^5.0.0",
-    "onchange": "^7.1.0",
-    "postcss": "^8.2.10",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.1.1"
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.2",
+    "tailwindcss": "^2.1.4"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^8.3.1"
   }
 }

@@ -1,0 +1,1631 @@
+/*! tailwindcss v2.1.4 | MIT License | https://tailwindcss.com */
+
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/*
+Document
+========
+*/
+
+/**
+Use a better box model (opinionated).
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/**
+Use a more readable tab size (opinionated).
+*/
+
+html {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+Sections
+========
+*/
+
+/**
+Remove the margin in all browsers.
+*/
+
+body {
+  margin: 0;
+}
+
+/**
+Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+*/
+
+body {
+  font-family:
+		system-ui,
+		-apple-system, /* Firefox supports this but not yet `system-ui` */
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+
+/*
+Grouping content
+================
+*/
+
+/**
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+}
+
+/*
+Text-level semantics
+====================
+*/
+
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family:
+		ui-monospace,
+		SFMono-Regular,
+		Consolas,
+		'Liberation Mono',
+		Menlo,
+		monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+
+/**
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+}
+
+/*
+Forms
+=====
+*/
+
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+1. Remove the inheritance of text transform in Firefox.
+*/
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+
+button,
+[type='button'] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+
+/**
+Remove the additional ':invalid' styles in Firefox.
+See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737
+*/
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+
+/*
+Interactive
+===========
+*/
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/**
+ * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
+ * A thin layer on top of normalize.css that provides a starting point more
+ * suitable for web applications.
+ */
+
+/**
+ * Removes the default spacing and border for appropriate elements.
+ */
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+}
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Tailwind custom reset styles
+ */
+
+/**
+ * 1. Use the user's configured `sans` font-family (with Tailwind's default
+ *    sans-serif font stack as a fallback) as a sane default.
+ * 2. Use Tailwind's default "normal" line-height so the user isn't forced
+ *    to override it to ensure consistency even when using the default theme.
+ */
+
+html {
+  font-family: Inter var; /* 1 */
+  line-height: 1.5; /* 2 */
+}
+
+/**
+ * Inherit font-family and line-height from `html` so users can set them as
+ * a class directly on the `html` element.
+ */
+
+body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+/**
+ * 1. Prevent padding and border from affecting element width.
+ *
+ *    We used to set this in the html element and inherit from
+ *    the parent element for everything else. This caused issues
+ *    in shadow-dom-enhanced elements like <details> where the content
+ *    is wrapped by a div with box-sizing set to `content-box`.
+ *
+ *    https://github.com/mozdevs/cssremedy/issues/4
+ *
+ *
+ * 2. Allow adding a border to an element by just adding a border-width.
+ *
+ *    By default, the way the browser specifies that an element should have no
+ *    border is by setting it's border-style to `none` in the user-agent
+ *    stylesheet.
+ *
+ *    In order to easily add borders to elements by just setting the `border-width`
+ *    property, we change the default border-style for all elements to `solid`, and
+ *    use border-width to hide them instead. This way our `border` utilities only
+ *    need to set the `border-width` property instead of the entire `border`
+ *    shorthand, making our border utilities much more straightforward to compose.
+ *
+ *    https://github.com/tailwindcss/tailwindcss/pull/116
+ */
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+/*
+ * Ensure horizontal rules are visible by default
+ */
+
+hr {
+  border-top-width: 1px;
+}
+
+/**
+ * Undo the `border-style: none` reset that Normalize applies to images so that
+ * our `border-{width}` utilities have the expected effect.
+ *
+ * The Normalize reset is unnecessary for us since we default the border-width
+ * to 0 on all elements.
+ *
+ * https://github.com/tailwindcss/tailwindcss/issues/362
+ */
+
+img {
+  border-style: solid;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/**
+ * Reset links to optimize for opt-in styling instead of
+ * opt-out.
+ */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/**
+ * Reset form element properties that are easy to forget to
+ * style explicitly so you don't inadvertently introduce
+ * styles that deviate from your design system. These styles
+ * supplement a partial reset that is already applied by
+ * normalize.css.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+
+/**
+ * Use the configured 'mono' font family for elements that
+ * are expected to be rendered with a monospace font, falling
+ * back to the system monospace stack if there is no configured
+ * 'mono' font family.
+ */
+
+pre,
+code,
+kbd,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/**
+ * Make replaced elements `display: block` by default as that's
+ * the behavior you want almost all of the time. Inspired by
+ * CSS Remedy, with `svg` added as well.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their intrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.grid {
+  display: grid;
+}
+
+.contents {
+  display: contents;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-title {
+  font-size: 4.375rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+* {
+  --tw-shadow: 0 0 #0000;
+}
+
+* {
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.w-3\/12 {
+  width: 25%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@import "public/assets/css/mixing.scss";
+
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgba(242, 252, 249, var(--tw-bg-opacity));
+  font-family: Inter var;
+  height: 100%;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  line-height: 1.5rem;
+  position: relative;
+  --tw-text-opacity: 1;
+  color: rgba(34, 31, 35, var(--tw-text-opacity));
+  width: 100%;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.img-container {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  position: relative;
+  visibility: hidden;
+}
+
+.img-container img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+a{
+  --tw-text-opacity: 1;
+  color: rgba(0, 194, 143, var(--tw-text-opacity));
+}
+
+small{
+  line-height: 1.25rem;
+}
+
+.img-overlay {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 194, 143, var(--tw-bg-opacity));
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+.title-wrapper h2 {
+  line-height: 85px;
+}
+
+.btn{
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 194, 143, var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 500ms;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(28,35,139,.1), 0 2px 5px rgba(41,52,204,.2);
+}
+
+.btn:hover{
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.1), 0 2px 6px rgba(0,0,0,.05), 0 7px 14px rgba(28,35,139,.15);
+  transform: translateY(-1px);
+  background-color: #4753ff;
+}
+
+.main-navigation-wrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 50;
+  -webkit-backdrop-filter: saturate(1) blur(0) !important;
+  -moz-backdrop-filter: saturate(1) blur(0) !important;
+  -o-backdrop-filter: saturate(1) blur(0) !important;
+  backdrop-filter: saturate(1) blur(0) !important;
+}
+
+.fixed-header .main-navigation-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: saturate(1) blur(20px) !important;
+  -o-backdrop-filter: saturate(1) blur(20px) !important;
+  backdrop-filter: saturate(1) blur(20px) !important;
+  border-bottom: 1px solid #edeef1;
+  transition: 0.3s !important;
+}
+
+.logo {
+  width: 100px;
+}
+
+.menu-item {
+  font-family: Inter var;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  --tw-text-opacity: 1;
+  color: rgba(34, 31, 35, var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 500ms;
+}
+
+.menu-item a{
+  --tw-text-opacity: 1;
+  color: rgba(34, 31, 35, var(--tw-text-opacity));
+}
+
+.menu-item a:hover, .menu-item.active a {
+  --tw-text-opacity: 1;
+  color: rgba(0, 194, 143, var(--tw-text-opacity));
+}
+
+.menu-item:before {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 194, 143, var(--tw-bg-opacity));
+  border-radius: 9999px;
+  height: 0px;
+  opacity: 0;
+  position: absolute;
+  width: 0px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 500ms;
+  content: "";
+  left: calc(50% - 4px);
+  top: -30px;
+}
+
+.menu-item.active :before, .menu-item:hover:before {
+  height: 0.5rem;
+  opacity: 1;
+  top: 0px;
+  width: 0.5rem;
+}
+
+.card {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 20px;
+  padding: 2rem;
+  --tw-shadow: 40px 30px 50px 0px rgba(11, 34, 56, 0.07);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hi-content {
+  top: calc(35% - 50px);
+  left: calc(15% - 113px);
+}
+
+.hi-discription {
+  top: calc(70% - 81px);
+  left: calc(15% - 113px);
+}
+
+.landing-social-content:after {
+  --tw-bg-opacity: 1;
+  background-color: rgba(34, 31, 35, var(--tw-bg-opacity));
+  position: absolute;
+  top: -100%;
+  content: '';
+  width: 2px;
+  height: 100%;
+  right: calc(50% - 1px);
+  z-index: -1;
+}
+
+.landing-social-content:before {
+  --tw-bg-opacity: 1;
+  background-color: rgba(242, 252, 249, var(--tw-bg-opacity));
+  position: absolute;
+  top: calc(-90% - 1px);
+  content: '';
+  width: 2px;
+  height: 15%;
+  right: calc(50% - 1px);
+  z-index: 0;
+}
+
+.social-item i {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(34, 31, 35, var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 500ms;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.social-item:hover i {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 194, 143, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+/*-----------------------------
+  Menu Mobile
+-----------------------------*/
+
+.menu {
+  background-image: none;
+  border-style: none;
+  cursor: pointer;
+  margin: 0px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 0px;
+  position: relative;
+  --tw-text-opacity: 1;
+  color: rgba(34, 31, 35, var(--tw-text-opacity));
+  width: 36px;
+  height: 36px;
+  -webkit-appearence: none;
+  -webkit-tap-highbase-primary-50-color: transparent;
+}
+
+.menu:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.menu.ripplemenu:active:before {
+  background: #165df5;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 100%;
+  opacity: 0.25;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: -9px;
+  -webkit-animation: RippleMenu 0.3s cubic-bezier(0.29, -0.01, 0.17, 0.95);
+          animation: RippleMenu 0.3s cubic-bezier(0.29, -0.01, 0.17, 0.95);
+}
+
+.menu svg {
+  width: 44px;
+  height: 48px;
+  top: -6px;
+  left: -14px;
+  stroke: #0b2238;
+  stroke-width: 0.2rem;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  display: block;
+  position: absolute;
+}
+
+.menu svg path {
+  transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s), stroke-dashoffset var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s);
+  stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
+  stroke-dashoffset: var(--offset, 126px);
+  transform: translateZ(0);
+}
+
+.menu svg path:nth-child(2) {
+  --duration: 0.7s;
+  --easing: ease-in;
+  --offset: 100px;
+  --array-2: 74px;
+}
+
+.menu svg path:nth-child(3) {
+  --offset: 133px;
+  --array-2: 107px;
+}
+
+.menu.active svg path {
+  --offset: 57px;
+}
+
+.menu.active svg path:nth-child(1), .menu.active svg path:nth-child(3) {
+  --delay: 0.15s;
+  --easing: cubic-bezier(0.2, 0.4, 0.2, 1.1);
+}
+
+.menu.active svg path:nth-child(2) {
+  --duration: 0.4s;
+  --offset: 2px;
+  --array-1: 1px;
+}
+
+.menu.active svg path:nth-child(3) {
+  --offset: 58px;
+}
+
+.mobilenav-overlay {
+  position: fixed;
+  width: 100%;
+  height: 0px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 40;
+  display: block;
+  transition: 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
+  opacity: 1;
+  pointer-events: none;
+  overflow-x: hidden;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highbase-primary-50-color: rgba(0, 0, 0, 0);
+}
+
+.mobilenav-active {
+  /*transition-delay: 550ms;*/
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: auto;
+  height: 100%;
+}
+
+.mobilenav-content {
+  background-color: transparent;
+  position: absolute;
+  z-index: 12;
+  opacity: 1;
+  pointer-events: auto;
+  height: 100%;
+}
+
+.mobilenav-wrapper {
+  padding-left: 4%;
+  padding-right: 4%;
+  top: 100px;
+  height: calc(100% - 110px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile-menu {
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile-menu-item{
+  margin-bottom: 1rem;
+}
+
+.mobile-menu-item a{
+  display: block;
+  --tw-text-opacity: 1;
+  color: rgba(34, 31, 35, var(--tw-text-opacity));
+  font-size: 22px;
+}
+
+h4{
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.connect-withme p,
+.connect-withme a{
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.connect-withme .social-item i{
+  margin-right: 8px;
+}
+
+element.style {
+}
+
+.toast.show {
+  display: block;
+  opacity: 1;
+  pointer-events: all;
+  bottom: 1.5rem;
+  transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
+}
+
+.toast.show {
+  display: block;
+  opacity: 1;
+}
+
+.toast {
+  max-width: 350px;
+  overflow: hidden;
+  position: fixed;
+  opacity: 0;
+  bottom: -6rem;
+  border: 0;
+  border-radius: 8px;
+  padding: 1.25rem 2rem;
+  background-color: #ffffff;
+  -webkit-backdrop-filter: blur(0);
+          backdrop-filter: blur(0);
+  z-index: 9;
+  transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
+  -o-box-shadow: 0px 0px 40px 0px rgba(11, 34, 56, 0.06) !important;
+  -ms-box-shadow: 0px 0px 40px 0px rgba(11, 34, 56, 0.06) !important;
+  box-shadow: 0px 0px 40px 0px rgba(11, 34, 56, 0.06) !important;
+}
+
+.toast.toast_demo .close {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 14px;
+  font-size: 18px;
+  top: 13px;
+}
+
+.toast.toast_demo h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0b2238;
+}
+
+.toast.toast_demo p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #6c7a87;
+}
+
+.toast-body {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.close {
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  color: #b5b5b5;
+}
+
+/*-----------------------------
+  loading_overlay
+-----------------------------*/
+
+.loaded_page #particles-js {
+  z-index: 12;
+}
+
+.loaded_page .loading_overlay {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s !important;
+}
+
+.loading_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fef8f2;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading_overlay .loader_logo {
+  position: relative;
+}
+
+.loading_overlay .loader_logo .logo {
+  width: 200px;
+  height: 60px;
+  -webkit-animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+  animation: text-focus-in 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both !important;
+}
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/*-----------------------------
+  Back to top with progress indicator
+-----------------------------*/
+
+.prgoress_indicator {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(22, 93, 245, 0.2);
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transform: translateY(15px) !important;
+  transition: all 200ms linear !important;
+}
+
+.prgoress_indicator.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) !important;
+}
+
+.prgoress_indicator::after {
+  position: absolute;
+  font-family:"Font Awesome 5 Pro";
+  content: "\f106";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  color: rgba(22, 93, 245, 0.2);
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  transition: all 200ms linear !important;
+}
+
+.prgoress_indicator::before {
+  position: absolute;
+  font-family: "Font Awesome 5 Pro";
+  content: "\f106";
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  opacity: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+  transition: all 200ms linear !important;
+}
+
+.prgoress_indicator:hover::after {
+  color: #165df5;
+}
+
+.prgoress_indicator:hover:before {
+  opacity: 1;
+}
+
+.prgoress_indicator svg path {
+  fill: none;
+}
+
+.prgoress_indicator svg.progress-circle path {
+  stroke: #ffa503;
+  stroke-width: 4;
+  box-sizing: border-box;
+  transition: all 200ms linear !important;
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+  .md\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .lg\:w-4\/12 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .lg\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .lg\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-3\/12 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1536px) {
+}

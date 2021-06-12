@@ -1,28 +1,40 @@
 module.exports = {
-  purge: {
-    mode:'layers',
-    content:['/docs/**/*.html/'],
-  },
+  purge: [
+      './public/**/*.php',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     container: {
       center: true,
       padding: "15px"
     },
+
     extend: {
+      fontFamily: {
+        sans: ['Inter var'],
+      },
       colors: {
-        yellow: "#ffa503",
-        black: "#222224",
-        light: "#ECF2F9",
+        base:{
+          primary: {
+            '50': '#f2fcf9',
+            '100': '#e6f9f4',
+            '200': '#bff0e3',
+            '300': '#99e7d2',
+            '400': '#4dd4b1',
+            '500': '#00c28f',
+            '600': '#00af81',
+            '700': '#00926b',
+            '800': '#007456',
+            '900': '#005f46'
+          },
+          yellow: "#00C28F",
+          black: "#221F23",
+          light: "#f2fcf9",
+
+        }
       },
       spacing: {
         '70': '70px',
-      },
-      fontFamily: {
-        'proxima-lt': ['Proxima Nova Alt Th'],
-        'proxima-rg': ['Proxima Nova Rg'],
-        'proxima-md': ['Proxima Nova Th'],
-        'proxima-bl': ['Proxima Nova Bl'],
       },
       boxShadow: {
         'card': '40px 30px 50px 0px rgba(11, 34, 56, 0.07) !important',
