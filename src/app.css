@@ -8,7 +8,7 @@
 
 
 body {
-    @apply relative w-full h-full bg-base-primary-50 text-xl leading-6 font-sans text-base-black;
+    @apply relative w-full h-full bg-base-primary-50 text-xl leading-9 font-sans text-gray-500;
 }
 
 img {
@@ -35,42 +35,22 @@ small{
     z-index: 2;
 }
 
-.title-wrapper h2 {
-    line-height: 85px;
+h2 {
+    @apply font-extrabold leading-tight text-base-black;
+    /*line-height: 85px;*/
+}
+
+h3{
+    @apply font-bold leading-tight text-base-black;
 }
 
 .btn{
-    @apply  rounded-xl bg-base-primary-500 text-white py-3 px-10 text-base transition-all duration-500 inline-block ;
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 2px rgba(28,35,139,.1), 0 2px 5px rgba(41,52,204,.2);
-}
-
-.btn:hover{
-    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1), 0 2px 6px rgba(0,0,0,.05), 0 7px 14px rgba(28,35,139,.15);
-    -webkit-transform: translateY(-1px);
-    transform: translateY(-1px);
-    background-color: #4753ff;
-}
-.main-navigation-wrapper {
-    @apply fixed w-full top-0 left-0 z-50;
-    -webkit-backdrop-filter: saturate(1) blur(0) !important;
-    -moz-backdrop-filter: saturate(1) blur(0) !important;
-    -o-backdrop-filter: saturate(1) blur(0) !important;
-    -ms-backdrop-filter: saturate(1) blur(0) !important;
-    backdrop-filter: saturate(1) blur(0) !important;
+    @apply  rounded-xl bg-base-primary-500 text-white py-3 px-10 text-base transition-all duration-500 inline-block transform hover:bg-base-primary-600 hover:-translate-y-px;
 }
 
 .fixed-header .main-navigation-wrapper {
-    background: rgba(255, 255, 255, 0.8);
-    -webkit-backdrop-filter: saturate(1) blur(20px) !important;
-    -o-backdrop-filter: saturate(1) blur(20px) !important;
-    -ms-backdrop-filter: saturate(1) blur(20px) !important;
-    backdrop-filter: saturate(1) blur(20px) !important;
-    border-bottom: 1px solid #edeef1;
-    -webkit-transition: 0.3s !important;
-    -moz-transition: 0.3s !important;
-    -o-transition: 0.3s !important;
-    -ms-transition: 0.3s !important;
-    transition: 0.3s !important;
+    @apply bg-white bg-opacity-80 transition duration-300 ease-in-out border-b border-gray-100;
+
 }
 
 .logo {
@@ -117,36 +97,9 @@ small{
     left: calc(15% - 113px);
 }
 
-.landing-social-content:after {
-    @apply bg-base-black absolute ;
-    top: -100%;
-    content: '';
-    width: 2px;
-    height: 100%;
-    right: calc(50% - 1px);
-    z-index: -1;
-}
-
-.landing-social-content:before {
-    @apply bg-base-primary-50 absolute ;
-    top: calc(-90% - 1px);
-    content: '';
-    width: 2px;
-    height: 15%;
-    right: calc(50% - 1px);
-    z-index: 0;
-}
 
 .social-item i {
-    @apply bg-white text-center rounded-full mb-3 text-base-black transition-all duration-500;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 14px;
-}
-
-.social-item:hover i {
-    @apply bg-base-primary-500 text-white;
+    @apply bg-base-black text-center text-sm w-10 h-10 leading-10 rounded-full mb-3 text-white transition-all duration-500 hover:bg-base-primary-500 hover:text-white;
 }
 
 
@@ -485,7 +438,7 @@ element.style {
     cursor: pointer;
     display: block;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px rgba(22, 93, 245, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(255, 165, 3, 0.2);
     z-index: 10000;
     opacity: 0;
     visibility: hidden;
@@ -511,13 +464,13 @@ element.style {
     transform: translateY(0) !important;
 }
 .prgoress_indicator::after {
+    @apply  text-base-primary-400;
     position: absolute;
     font-family:"Font Awesome 5 Pro";
     content: "\f106";
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: rgba(22, 93, 245, 0.2);
     left: 0;
     top: 0;
     height: 46px;
@@ -555,7 +508,7 @@ element.style {
     transition: all 200ms linear !important;
 }
 .prgoress_indicator:hover::after {
-    color: #165df5;
+   @apply text-base-primary-500;
 }
 .prgoress_indicator:hover:before {
     opacity: 1;
@@ -564,7 +517,7 @@ element.style {
     fill: none;
 }
 .prgoress_indicator svg.progress-circle path {
-    stroke: #ffa503;
+    @apply stroke-current text-base-primary-500;
     stroke-width: 4;
     box-sizing: border-box;
     -webkit-transition: all 200ms linear !important;

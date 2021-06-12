@@ -6,7 +6,7 @@
         <div class="container relative  p-10 lg:pb-0  pb-10 h-screen  rounded-xl">
             <div class="title-wrapper inline-block">
                 <div class="title">
-                    <h2 class="font-proxima-bl  text-title ">Coming Soon</h2>
+                    <h2 class="  text-title ">Coming Soon</h2>
                 </div>
             </div>
         </div>

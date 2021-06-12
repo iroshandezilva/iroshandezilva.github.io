@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "watch": {
-    "prod" : "./src/*.css"
+    "dev": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "css",
+      "delay": 1500,
+      "runOnChangeOnly": false
+    }
   },
   "scripts": {
     "dev": "postcss src/app.css -o public/assets/css/style.css",

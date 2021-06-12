@@ -1,9 +1,9 @@
 <?php include "header.php"; ?>
 
 
-<div class="section section-about-one relative pt-40 pb-70 bg-white">
+<div class="section section-about-one relative pt-40 pb-56 bg-white">
     <div class="section-wrapper mx-5 lg:mx-0">
-        <div class="container relative bg-black p-10 lg:pb-0  pb-10  rounded-xl">
+        <div class="container relative bg-base-black p-10 lg:pb-0  pb-10  rounded-xl">
             <div class="grid lg:grid-cols-5 grid-cols-1  gap-20">
                 <div class="col-span-2 rounded-lg overflow-hidden mx-auto">
                     <img src="assets/img/iroshan-de-zilva-ui-ux-designer.webp" alt="Iroshan De Zilva">
@@ -12,11 +12,11 @@
                     <div class="title-wrapper inline-block">
                         <div class="title">
                             <small class="text-base text-white">Hi there,</small>
-                            <h2 class="font-proxima-bl text-white text-title ">Nice to meet you<br> I’m Iroshan</h2>
+                            <h2 class=" text-white text-title ">Nice to meet you<br> I’m Iroshan</h2>
                         </div>
                         <p class="text-white">I work as a User Interface & User Experience designer creating thoughtful
                             experiences with the
-                            combination of design and development</p>
+                            combination of design.</p>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small>Summary</small>
-                <h4 class="font-proxima-md text-4xl mb-10">The intersection of Design and Development</h4>
+                <h2 class=" text-4xl mb-10">The intersection of Design and Development</h2>
                 <p class="mb-10">Thanks to my self-learning I've gained enough knowledge in UI UX. I connect UX/UI
                     design with real business goals while providing delightful client experiences.</p>
                 <p class="mb-10">Currently, I’m designing the next generation of note-taking experience at Craft with an
@@ -52,7 +52,7 @@
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small>Background story</small>
-                <h4 class="font-proxima-md text-4xl mb-10">Following my passion</h4>
+                <h2 class=" text-4xl mb-10">Following my passion</h2>
                 <p class="mb-10">The design has always been my passion and hobby since my early childhood. I learned to
                     design and code on my own out of curiosity.
                     This curiosity helped me to stay up-to-date from year to year and I’m still learning every single
@@ -67,7 +67,7 @@
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small>Why design?</small>
-                <h4 class="font-proxima-md text-4xl mb-10">Making people happy by making things simple</h4>
+                <h2 class=" text-4xl mb-10">Making people happy by making things simple</h2>
                 <p class="mb-10">As technology progresses things are getting more and more complex. As a designer, I
                     have a special opportunity to make these complex processes simple, delightful, and joy to use every
                     day.</p>

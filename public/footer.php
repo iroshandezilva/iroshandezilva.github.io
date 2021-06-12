@@ -1,16 +1,16 @@
 
 <footer  class="text-center py-3">
-    <small>© <script>document.write(new Date().getFullYear()) </script>  All rights reserved. – <b>Designed in <a target="_blank" href="http://figma.com/">Figma</a> & Built with <a target="_blank" href="https://tailwindcss.com/">TailwindCss</a> by Iroshan De Zilva</b></small>
+    <small>© <script>document.write(new Date().getFullYear()) </script>  All rights reserved. – <span>Designed in <a target="_blank" href="http://figma.com/">Figma</a> & Built with <a target="_blank" href="https://tailwindcss.com/">TailwindCss</a> by Iroshan De Zilva</span></small>
 </footer>
 
 
 <div class="flex items-center justify-center">
     <div class="toast  fade " id="myTost">
         <div class="toast-body">
-            <div class="close">
+            <div class="close cursor-pointer">
                 <i class="far fa-times"></i>
             </div>
-            <h5 class="font-bold font-proxima-bl">Hi there 👋</h5>
+            <h5 class="font-bold ">Hi there 👋</h5>
             <p>I'm glad you contact with me <a href="mailto:hello@iroshandezilva.com">Contact me</a></p>
         </div>
     </div>
@@ -55,12 +55,6 @@
 <!-- Main Js -->
 <script src="assets/js/main.js"></script>
 
-
-<script>
-    new kursor({
-        type: 2
-    })
-</script>
 
 <!--Tidio Live chat script-->
 <!--<script src="//code.tidio.co/tb5dibosc8zqofndppla1sklaf7mttm6.js" async></script>-->
