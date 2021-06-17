@@ -7,7 +7,7 @@
             <div class="w-full lg:w-7/12 mx-auto relative">
                 <div class="landing-img-wrapper">
                     <div class="landing-img">
-                        <img src="assets/img/iroshandezilva-img-3.png" alt="Iroshan De Zilva Cover Image">
+                        <img src="assets/img/iroshandezilva-img-3.webp" alt="Iroshan De Zilva Cover Image">
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
                        <div class="relative w-full">
                            <div class=" flex relative z-10 items-center bg-white p-8 rounded-card ">
                                <div class="w-3/12 mr-3">
-                                   <img src="assets/img/hi-emoji.svg">
+                                   <img src="assets/img/hi-emoji.svg" alt="Hi Emoji">
                                </div>
                                <div class="w-9/12">
                                    <small>Hello, I am</small>
@@ -104,7 +104,7 @@
         <div class="container">
             <div class="title-wrapper inline-block mb-10">
                 <div class="title">
-                    <small class="text-base ">RECENT WORK</small>
+                    <h2 class=" text-title">Recent Work</h2>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3  lg:gap-20  gap-10">
@@ -202,7 +202,7 @@
                         </div>
                         <div class="client-wrapper">
                             <div class="client">
-                                <img src="assets/img/clients/leavedates.png" alt="Solar Digital">
+                                <img src="assets/img/clients/leavedates.png" alt="LeaveDates">
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
                         better it is for both of us.</p>
                     <div class="email-within flex my-5 items-center justify-center mx-auto">
                         <div class="">
-                            <img src="assets/img/email-icon.svg">
+                            <img src="assets/img/email-icon.svg" alt="Email Icon">
                         </div>
                         <div class="">
                             <small><b>Reply time:</b>within 1-2 working days</small>

@@ -1,4 +1,9 @@
-<?php include "header.php"; ?>
+<?php
+
+$title="Contact Me";
+
+
+include "header.php"; ?>
 
 
 <div class="section section-six relative py-70 pt-40  bg-white text-center">
@@ -7,7 +12,7 @@
             <div class="title-wrapper inline-block mb-10">
                 <div class="title ">
                     <small class="text-base ">What’s in your mind?</small>
-                    <h2 class=" text-title ">Let’s talk about you</h2>
+                    <h1 class=" text-title ">Let’s talk about you</h1>
                 </div>
             </div>
             <div class="lets-wroktogather-wrapper mx-auto w-full lg:w-8/12">

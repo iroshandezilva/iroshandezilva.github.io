@@ -1,4 +1,8 @@
-<?php include "header.php"; ?>
+<?php
+
+$title="Blog";
+
+include "header.php"; ?>
 
 
 <div class="section section-about-one relative pt-40 pb-70 bg-white">
@@ -6,7 +10,7 @@
         <div class="container relative  p-10 lg:pb-0  pb-10 h-screen  rounded-xl">
             <div class="title-wrapper inline-block">
                 <div class="title">
-                    <h2 class="  text-title ">Coming Soon</h2>
+                    <h1 class="  text-title ">Blog</h1>
                 </div>
             </div>
         </div>

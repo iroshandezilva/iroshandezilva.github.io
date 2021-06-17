@@ -48,7 +48,7 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>-->
 
 
 

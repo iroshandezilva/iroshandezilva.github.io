@@ -1,4 +1,7 @@
-<?php include "header.php"; ?>
+<?php
+$title="About Us";
+
+include "header.php"; ?>
 
 
 <div class="section section-about-one relative pt-40 pb-56 bg-white">
@@ -12,7 +15,7 @@
                     <div class="title-wrapper inline-block">
                         <div class="title">
                             <small class="text-base text-white">Hi there,</small>
-                            <h2 class=" text-white text-title ">Nice to meet you<br> I’m Iroshan</h2>
+                            <h1 class=" text-white text-title font-bold leading-tight	">Nice to meet you<br> I’m Iroshan</h1>
                         </div>
                         <p class="text-white">I work as a User Interface & User Experience designer creating thoughtful
                             experiences with the
