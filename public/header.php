@@ -132,7 +132,7 @@ $final_key = $link_exp[count($link_exp) - 1]
 
 
     <div class="mobilenav-overlay ">
-        <div class="mobilenav-content container">
+        <div class="mobilenav-content container pb-4">
             <div class="mobilenav-wrapper">
                 <div class="mobile-menu flex">
                     <div class="mobile-menu-item"><a href="index.php">Home</a></div>

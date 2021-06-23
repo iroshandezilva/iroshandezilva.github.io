@@ -12,7 +12,7 @@ include "header.php"; ?>
             <div class="title-wrapper inline-block mb-10">
                 <div class="title ">
                     <small class="text-base ">What’s in your mind?</small>
-                    <h1 class=" text-title ">Let’s talk about you</h1>
+                    <h1 class="text-base-black text-title font-bold leading-tight	">Let’s talk about you</h1>
                 </div>
             </div>
             <div class="lets-wroktogather-wrapper mx-auto w-full lg:w-8/12">
@@ -39,7 +39,7 @@ include "header.php"; ?>
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small class="text-center flex justify-center">How I work</small>
-                <h4 class=" text-4xl text-center mb-10">Profitable design</h4>
+                <h4 class=" text-4xl text-center mb-10 text-base-black font-bold">Profitable design</h4>
                 <p class="mb-10">As a designer with business background I’m always focusing on creating experiences,
                     which are delightful and profitable at the same time. I start every job with detailed questions
                     about your business and customers before I even start thinking about any design solutions.</p>

@@ -1,5 +1,5 @@
 <?php
-$title="About Us";
+$title="About Me";
 
 include "header.php"; ?>
 
