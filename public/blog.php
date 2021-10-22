@@ -10,7 +10,7 @@ include "header.php"; ?>
         <div class="container relative  p-10 lg:pb-0  pb-10 h-screen  rounded-xl">
             <div class="title-wrapper inline-block">
                 <div class="title">
-                    <h1 class="  text-title ">Blog</h1>
+                    <h1 class="  text-4xl lg:text-7xl ">Blog</h1>
                 </div>
             </div>
         </div>

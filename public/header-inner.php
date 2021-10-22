@@ -35,11 +35,11 @@
     <meta property="twitter:image" content="https://iroshandezilva.com/assets/img/iroshandezilva-meta.png">
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="../assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
@@ -47,15 +47,15 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 
 
-    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="../assets/fonts/stylesheet.css">
     <link rel="preload" as="font">
 <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="../assets/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-    <link rel="stylesheet" href="assets/css/cursor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/cursor.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
 
     <!-- Hotjar Tracking Code for iroshandezilva.com -->
     <script>
@@ -102,7 +102,7 @@ $final_key = $link_exp[count($link_exp) - 1]
             <div class="main-navigation flex justify-between content-center items-center flex-wrap py-4">
                 <div class="logo w-28">
                     <a href="/">
-                        <img src="assets/img/iroshandezilva-logo.svg" alt="Iroshan De Zilva UI UX Designer">
+                        <img src="../assets/img/iroshandezilva-logo.svg" alt="Iroshan De Zilva UI UX Designer">
                     </a>
                 </div>
                 <button class="navbar-toggler menu ripplemenu block lg:hidden">
@@ -116,12 +116,12 @@ $final_key = $link_exp[count($link_exp) - 1]
                     <div class="navigation">
                         <div class="menu-wrapper flex">
                             <div class="menu-item <?php echo ($final_key == "" || $final_key == "index.php") ? 'active' : null ?>">
-                                <a class="k-hover2" href="index.php">Home</a></div>
+                                <a class="k-hover2" href="../index.php">Home</a></div>
                             <div class="menu-item <?php echo ($final_key == "about-me" || $final_key == "about-me.php") ? 'active' : null ?>">
-                                <a class="k-hover3 " href="about-me.php"> About Me</a></div>
-                            <div class="menu-item"><a href="portfolio.php">Portfolio</a></div>
+                                <a class="k-hover3 " href="../about-me.php"> About Me</a></div>
+                            <div class="menu-item"><a href="../portfolio.php">Portfolio</a></div>
                             <div class="menu-item
-                        <?php echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?>"><a href="contact-me.php">Contact Me</a></div>
+                        <?php echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?>"><a href="../contact-me.php">Contact Me</a></div>
                         </div>
                     </div>
                 </div>
@@ -134,10 +134,10 @@ $final_key = $link_exp[count($link_exp) - 1]
         <div class="mobilenav-content container pb-4">
             <div class="mobilenav-wrapper">
                 <div class="mobile-menu flex">
-                    <div class="mobile-menu-item"><a href="index.php">Home</a></div>
-                    <div class="mobile-menu-item"><a href="about-me.php"> About Me</a></div>
-                    <div class="mobile-menu-item"><a href="portfolio.php">Portfolio</a></div>
-                    <div class="mobile-menu-item"><a href="contact-me.php">Contact Me</a></div>
+                    <div class="mobile-menu-item"><a href="../index.php">Home</a></div>
+                    <div class="mobile-menu-item"><a href="../about-me.php"> About Me</a></div>
+                    <div class="mobile-menu-item"><a href="../portfolio.php">Portfolio</a></div>
+                    <div class="mobile-menu-item"><a href="../contact-me.php">Contact Me</a></div>
                 </div>
             </div>
             <div class="mobilenav-social text-center">
@@ -175,6 +175,6 @@ $final_key = $link_exp[count($link_exp) - 1]
 <!-- Pre Loader -->
 <!--<section class="loading_overlay">-->
 <!--    <div class="loader_logo">-->
-<!--        <img class="logo" src="assets/img/iroshandezilva-logo.svg" />-->
+<!--        <img class="logo" src="../assets/img/iroshandezilva-logo.svg" />-->
 <!--    </div>-->
 <!--</section>-->
