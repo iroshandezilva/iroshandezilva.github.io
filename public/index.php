@@ -54,13 +54,13 @@
             <div class="title-wrapper inline-block mb-10">
                 <div class="title">
                     <small class="text-base ">How i work</small>
-                    <h2 class=" text-title">Design Process</h2>
+                    <h2 class=" text-4xl lg:text-7xl">Design Process</h2>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-9 mt-8">
                 <div class="process-wrapper mb-8">
                     <div class="process-content">
-                        <h3 class="text-4xl mb-5">Strategy</h3>
+                        <h3 class="ttext-4xl mb-5">Strategy</h3>
                         <h6 class="font-medium text-base-black">Ask first.</h6>
                         <p>Before jumping into designing I always make sure that we’re asking the right questions and
                             trying to accomplish the right challenges. This stage includes market research, competitive
@@ -69,7 +69,7 @@
                 </div>
                 <div class="process-wrapper mb-8">
                     <div class="process-content">
-                        <h3 class="text-4xl mb-5">Design</h3>
+                        <h3 class="ttext-4xl mb-5">Design</h3>
                         <h6 class="font-medium text-base-black">Problem solving.</h6>
                         <p>At the end of this phase you’ll have a pixel perfect design for your app or website. During
                             the transition from wireframes into the final design I create prototypes simulating final
@@ -78,7 +78,7 @@
                 </div>
                 <div class="process-wrapper mb-8">
                     <div class="process-content">
-                        <h3 class="text-4xl mb-5">Development</h3>
+                        <h3 class="ttext-4xl mb-5">Development</h3>
                         <h6 class="font-medium text-base-black">Bringing designs to life.</h6>
                         <p>Since I’m a designer who can code too, I can easily work in close collaboration with
                             developers up until the finish line and beyond. In case of web projects I also do front-end
@@ -87,7 +87,7 @@
                 </div>
                 <div class="process-wrapper mb-8">
                     <div class="process-content">
-                        <h3 class="text-4xl mb-5">Quality assurance</h3>
+                        <h3 class="ttext-4xl mb-5">Quality assurance</h3>
                         <h6 class="font-medium text-base-black">Transparent process.</h6>
                         <p>Complete overview of my design process through regular meetings. After the initial design
                             versions I’m happy to do user testing with customers to ensure the best possible solutions
@@ -104,57 +104,13 @@
         <div class="container">
             <div class="title-wrapper inline-block mb-10">
                 <div class="title">
-                    <h2 class=" text-title">Recent Work</h2>
+                    <h2 class=" text-4xl lg:text-7xl">Recent Work</h2>
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3  lg:gap-20  gap-10">
-                <div class="portfolio-thum-wrapper">
-                    <div class="portfolio-thum">
-                        <div class="portfolio-thum-img">
-                            <div class="img-container">
-                                <div class="img-overlay"></div>
-                                <img src="assets/img/portfolio-img/webp/allianz-iinsurance-lanka-mobile-app-ui-design.webp"
-                                     alt="Allianz Insurance Mobile App UI UX Design">
+            <?php
+            $home=true;
+            include "portfolio-items.php" ?>
 
-                            </div>
-                        </div>
-                    </div>
-                    <h5 class="mt-3">Allianz Insurance Mobile App UI Design</h5>
-                </div>
-                <div class="portfolio-thum-wrapper">
-                    <div class="portfolio-thum">
-                        <div class="portfolio-thum-img">
-                            <div class="img-container">
-                                <div class="img-overlay"></div>
-                                <img src="assets/img/portfolio-img/webp/direct-messaging-web-redesign.webp"
-                                     alt="Direct Messaging UI UX Design">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-thum-wrapper">
-                    <div class="portfolio-thum">
-                        <div class="portfolio-thum-img">
-                            <div class="img-container">
-                                <div class="img-overlay"></div>
-                                <img src="assets/img/portfolio-img/webp/helakuru-calendar-redesign.webp"
-                                     alt="Helakuru Calendar UI UX Redesign">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-thum-wrapper">
-                    <div class="portfolio-thum">
-                        <div class="portfolio-thum-img">
-                            <div class="img-container">
-                                <div class="img-overlay"></div>
-                                <img src="assets/img/portfolio-img/webp/helakuru-keyboard-redesign.webp"
-                                     alt="helakuru Keyboard UI UX Redesign">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -167,7 +123,7 @@
                     <div class="title-wrapper inline-block mb-10">
                         <div class="title">
                             <small class="text-base ">My Clients</small>
-                            <h2 class=" text-title ">We’re going to became partners for the long
+                            <h2 class=" text-4xl lg:text-7xl ">We’re going to became partners for the long
                                 run.</h2>
                         </div>
                     </div>
@@ -222,7 +178,7 @@
                             <div class="title-wrapper inline-block mb-10">
                                 <div class="title">
                                     <small class="text-base ">Nice to meet you</small>
-                                    <h2 class=" text-title ">Hi there, I’m Iroshan</h2>
+                                    <h2 class=" text-4xl lg:text-7xl ">Hi there, I’m Iroshan</h2>
                                 </div>
                             </div>
                             <h3 class=" mb-4">My name is Iroshan De Zilva. I work as a User Interface &
@@ -284,7 +240,7 @@
             <div class="title-wrapper inline-block mb-10">
                 <div class="title ">
                     <small class="text-base ">Get in touch</small>
-                    <h2 class=" text-title ">Let’s work together</h2>
+                    <h2 class=" text-4xl lg:text-7xl ">Let’s work together</h2>
                 </div>
             </div>
             <div class="lets-wroktogather-wrapper mx-auto w-full lg:w-8/12">

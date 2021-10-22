@@ -15,7 +15,7 @@ include "header.php"; ?>
                     <div class="title-wrapper inline-block">
                         <div class="title">
                             <small class="text-base text-white">Hi there,</small>
-                            <h1 class=" text-white text-title font-bold leading-tight	">Nice to meet you<br> I’m Iroshan</h1>
+                            <h1 class=" text-white text-4xl lg:text-7xl font-bold leading-tight	">Nice to meet you<br> I’m Iroshan</h1>
                         </div>
                         <p class="text-white">I work as a User Interface & User Experience designer creating thoughtful
                             experiences with the
@@ -31,7 +31,7 @@ include "header.php"; ?>
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small>Summary</small>
-                <h2 class=" text-4xl mb-10">The intersection of Design and Development</h2>
+                <h2 class=" ttext-4xl mb-10">The intersection of Design and Development</h2>
                 <p class="mb-10">Thanks to my self-learning I've gained enough knowledge in UI UX. I connect UX/UI
                     design with real business goals while providing delightful client experiences.</p>
                 <p class="mb-10">Currently, I’m designing the next generation of note-taking experience at Craft with an
@@ -55,7 +55,7 @@ include "header.php"; ?>
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small>Background story</small>
-                <h2 class=" text-4xl mb-10">Following my passion</h2>
+                <h2 class=" ttext-4xl mb-10">Following my passion</h2>
                 <p class="mb-10">The design has always been my passion and hobby since my early childhood. I learned to
                     design and code on my own out of curiosity.
                     This curiosity helped me to stay up-to-date from year to year and I’m still learning every single
@@ -70,7 +70,7 @@ include "header.php"; ?>
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small>Why design?</small>
-                <h2 class=" text-4xl mb-10">Making people happy by making things simple</h2>
+                <h2 class=" ttext-4xl mb-10">Making people happy by making things simple</h2>
                 <p class="mb-10">As technology progresses things are getting more and more complex. As a designer, I
                     have a special opportunity to make these complex processes simple, delightful, and joy to use every
                     day.</p>

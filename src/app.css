@@ -15,24 +15,12 @@ img {
     @apply w-full h-auto ;
 }
 
-.img-container {
-    @apply relative overflow-hidden  invisible rounded-xl;
-}
-
-.img-container img {
-    @apply object-contain;
-}
-
 a{
     @apply text-base-primary-500;
 }
 
 small{
    @apply leading-5;
-}
-.img-overlay {
-    @apply bg-base-primary-500 w-full h-full absolute top-0 left-0 ;
-    z-index: 2;
 }
 
 h2 {

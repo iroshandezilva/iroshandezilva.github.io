@@ -43,9 +43,6 @@ module.exports = {
         'card': '20px',
         'full': '9999px',
       },
-      fontSize: {
-        'title': '4.375rem',
-      },
     },
   },
   variants: {
