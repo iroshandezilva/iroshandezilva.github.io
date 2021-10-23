@@ -22,7 +22,7 @@ include "../header-inner.php"; ?>
             <div class="flex justify-between mt-10 mx-auto max-w-lg">
                 <div>
                     <h5 class="text-sm font-medium text-black">Date</h5>
-                    <h6 class="text-xs">Nov 3, 2020, 2020</h6>
+                    <h6 class="text-xs">Nov 3, 2020</h6>
                 </div>
 
                 <div>
@@ -40,7 +40,7 @@ include "../header-inner.php"; ?>
     </div>
 </div>
 
-<div class="bg-white py-18">
+<div class="bg-white py-20">
     <div class="container">
         <img class="rounded-xl"
              src="https://cdn.dribbble.com/users/3609611/screenshots/14513813/media/ce4f5adf4dc1121e6bc25dad54eb60e0.png"
