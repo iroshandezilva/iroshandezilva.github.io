@@ -9,8 +9,26 @@ $data = [
         'tags' => 'UI Design / Redesign',
         'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/14513813/media/ce4f5adf4dc1121e6bc25dad54eb60e0.png?compress=1&resize=1200x900',
         'alt' => 'Helakuru Keyboard Redesign',
-        'link-text' => 'Dribbbble Shot',
-        'link' => 'portfolio/helakuru-keyboard-redesign.php',
+        'link-text' => 'View Details',
+        'link' => 'portfolio-list/helakuru-keyboard-redesign.php',
+        'private' => false
+    ),
+    array(
+        'title' => 'Allianz Insurance Sri Lanka App',
+        'tags' => 'UI Design',
+        'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/15176922/media/85c4787710e1f6a701da55a92be7b59b.jpg?compress=1&resize=1200x900',
+        'alt' => 'Allianz Insurance Sri Lanka App',
+        'link-text' => 'View Details',
+        'link' => 'portfolio-list/allianz-insurance-sri-lanka-app.php',
+        'private' => false
+    ),
+    array(
+        'title' => 'Airtel Broadband Concept iOS App',
+        'tags' => 'UI Design / Concept',
+        'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/8108301/media/4a9f54c494c29f75fef3f5df4f445843.jpg?compress=1&resize=1200x900',
+        'alt' => 'Airtel Broadband Concept iOS App',
+        'link-text' => 'View Details',
+        'link' => 'portfolio-list/airtel-broadband.php',
         'private' => false
     ),
 ];
