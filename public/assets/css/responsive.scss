@@ -28,9 +28,6 @@
 @media only screen and (max-width: 1024px) {
 
   body {
-    font-size: 16px;
-    line-height: 28px;
-
     .hi-content {
       top: calc(35% - 50px);
       left: calc(10% - 50px);
@@ -78,14 +75,6 @@
 @media only screen and (max-width: 767px) {
 
   body {
-
-    .title-wrapper {
-      h2 {
-        font-size: 2.375rem;
-        line-height: 2.375rem;
-      }
-    }
-
     .section-one {
       .landing-img-wrapper {
         margin-bottom: 100px;

@@ -55,7 +55,7 @@ include "header.php"; ?>
                             href="mailto:hello@iroshandezilva.com">email</a> or a <a target="_blank"
                                                                                      href="https://twitter.com/iroshandezilva">tweet</a>.
                 </h6>
-                <div class="flex justify-center">
+                <div class="flex justify-center space-x-3">
                     <?php include "elements/social-links.php" ?>
                 </div>
             </div>

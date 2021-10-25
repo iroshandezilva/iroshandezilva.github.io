@@ -3,6 +3,7 @@
 if (!isset($home)) {
     $home = false;
 }
+
 $data = [
     array(
         'title' => 'Helakuru Keyboard Redesign',
@@ -10,7 +11,7 @@ $data = [
         'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/14513813/media/ce4f5adf4dc1121e6bc25dad54eb60e0.png?compress=1&resize=1200x900',
         'alt' => 'Helakuru Keyboard Redesign',
         'link-text' => 'View Details',
-        'link' => 'portfolio-list/helakuru-keyboard-redesign.php',
+        'link' => 'portfolio-list/helakuru-keyboard-redesign',
         'private' => false
     ),
     array(
@@ -19,7 +20,7 @@ $data = [
         'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/15176922/media/85c4787710e1f6a701da55a92be7b59b.jpg?compress=1&resize=1200x900',
         'alt' => 'Allianz Insurance Sri Lanka App',
         'link-text' => 'View Details',
-        'link' => 'portfolio-list/allianz-insurance-sri-lanka-app.php',
+        'link' => 'portfolio-list/allianz-insurance-sri-lanka-app',
         'private' => false
     ),
     array(
@@ -28,13 +29,13 @@ $data = [
         'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/8108301/media/4a9f54c494c29f75fef3f5df4f445843.jpg?compress=1&resize=1200x900',
         'alt' => 'Airtel Broadband Concept iOS App',
         'link-text' => 'View Details',
-        'link' => 'portfolio-list/airtel-broadband.php',
+        'link' => 'portfolio-list/airtel-broadband',
         'private' => false
     ),
 ];
 ?>
 
-<div class="grid grid-cols-1 md:grid-cols-3  lg:gap-20  gap-10">
+<div class="grid grid-cols-1 md:grid-cols-3  lg:gap-20 gap-10">
     <?php
     $i = 0;
     foreach ($data as $item) {

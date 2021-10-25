@@ -52,7 +52,7 @@
 
 
 <!-- Main Js -->
-<script src="assets/js/main.js"></script>
+<script src="<?php echo site_url('assets/js/main.js')?>"></script>
 
 
 <!--Tidio Live chat script-->
