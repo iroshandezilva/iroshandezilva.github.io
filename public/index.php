@@ -15,13 +15,13 @@
                 <div class="hi-wrapper">
                     <div class="hi-content shadow-card  rounded-card absolute w-10/12 xl:w-3/12 md:w-5/12  lg:w-4/12 flex top  items-center  justify-center">
                        <div class="relative w-full">
-                           <div class=" flex relative z-10 items-center bg-white p-8 rounded-card ">
-                               <div class="w-3/12 mr-3">
+                           <div class=" flex relative z-10 items-center bg-white p-4 lg:p-8 rounded-2xl">
+                               <div class="lg:w-3/12 w-2/12 mr-3">
                                    <img src="assets/img/hi-emoji.svg" alt="Hi Emoji">
                                </div>
-                               <div class="w-9/12">
+                               <div class="lh:w-9/12 w-10/12">
                                    <small>Hello, I am</small>
-                                   <h1 class=" size text-2xl font-bold text-black">Iroshan De Zilva</h1>
+                                   <h1 class=" size text-xl lg:text-2xl font-bold text-black">Iroshan De Zilva</h1>
                                </div>
                            </div>
                            <div class="absolute h-full rounded-card  w-full -bottom-1 left-0  bg-base-primary-200"></div>
@@ -29,8 +29,8 @@
                     </div>
                 </div>
                 <div claas="hi-discription-wrapper">
-                    <div class="hi-discription card absolute w-11/12 lg:w-4/12 md:w-8/12">
-                        <p>Reach your business goals with excellent user experience. Let’s start working on your awesome
+                    <div class="hi-discription p-4 md:p-6  lg:p-8 rounded-2xl shadow-card bg-white  absolute w-11/12 lg:w-4/12 md:w-8/12">
+                        <p class="text-sm text-base">Reach your business goals with excellent user experience. Let’s start working on your awesome
                             web or iOS app.</p>
                     </div>
                 </div>
@@ -48,13 +48,13 @@
     </div>
 </div>
 
-<div class="section section-two relative bg-white py-56">
+<div class="section section-two relative bg-white py-28 lg:py-32 xl:py-56">
     <div class="section-wrapper">
         <div class="container">
             <div class="title-wrapper inline-block mb-10">
                 <div class="title">
                     <small class="text-base ">How i work</small>
-                    <h2 class=" text-4xl lg:text-7xl">Design Process</h2>
+                    <h2 class="text-2xl lg:text-7xl">Design Process</h2>
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-9 mt-8">
@@ -99,7 +99,7 @@
     </div>
 </div>
 
-<div class="section section-three relative py-56" id="portfolio">
+<div class="section section-three relative py-28 lg:py-32 xl:py-56" id="portfolio">
     <div class="section-wrapper">
         <div class="container">
             <div class="title-wrapper inline-block mb-10">
@@ -115,7 +115,7 @@
     </div>
 </div>
 
-<div class="section section-four relative py-56 bg-white">
+<div class="section section-four relative py-28 lg:py-32 xl:py-56 bg-white">
     <div class="section-wrapper">
         <div class="container">
             <div class="grid grid-cols-1 lg:grid-cols-2  lg:gap-20 gap-5 ">
@@ -168,7 +168,7 @@
     </div>
 </div>
 
-<div class="section section-five relative py-56" id="aboutme">
+<div class="section section-five relative py-28 lg:py-32 xl:py-56" id="aboutme">
     <div class="section-wrapper">
         <div class="container">
             <div class="lg:flex">
@@ -183,7 +183,8 @@
                             </div>
                             <h3 class=" mb-4">My name is Iroshan De Zilva. I work as a User Interface &
                                 User Experience designer in Sri Lanka.</h3>
-                            <p class="mb-4">Currently, I’m designing thoughtful experiences at <a class="text-blue-500 font-bold" target="_blank" href="https://www.onesyntax.com/">OneSyntax</a>
+                            <p class="mb-4">I was designing thoughtful experiences at <a target="_blank"
+                                                                                         href="https://www.bhasha.lk/">Bhasha.</a>
                                 with an amazing team to help designers, product managers and engineers collaborate
                                 better together.</p>
                             <p class="mb-4">Outside of my full-time commitments, I work with a selected freelance client
@@ -202,10 +203,6 @@
                             <div class="social-item">
                                 <a href="https://www.facebook.com/iroshandezilva/"><i class="fab fa-facebook-f"></i>
                                     Facebook</a>
-                            </div>
-                            <div class="social-item ">
-                                <a href="https://www.instagram.com/iroshandezilva/"><i class="fab fa-instagram"></i>
-                                    Instagram</a>
                             </div>
                             <div class="social-item">
                                 <a href="https://www.linkedin.com/in/iroshandezilva/"><i class="fab fa-linkedin-in"></i>
@@ -234,7 +231,7 @@
     </div>
 </div>
 
-<div class="section section-six relative py-56 bg-white text-center" id="contactme">
+<div class="section section-six relative py-28 lg:py-32 xl:py-56 bg-white text-center" id="contactme">
     <div class="section-wrapper">
         <div class="container">
             <div class="title-wrapper inline-block mb-10">

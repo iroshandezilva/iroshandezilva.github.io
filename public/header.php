@@ -1,4 +1,7 @@
-<?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
+<?php
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+include 'functions.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,27 +53,12 @@
     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
     <link rel="preload" as="font">
 <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
-    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="<?php echo site_url('assets/css/all.css')?>">
     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
-    <link rel="stylesheet" href="assets/css/cursor.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo site_url('assets/css/cursor.css')?>">
+    <link rel="stylesheet" href="<?php echo site_url('assets/css/style.css')?>">
+    <link rel="stylesheet" href="<?php echo site_url('assets/css/responsive.css')?>">
 
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!-- Hotjar Tracking Code for iroshandezilva.com -->
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {hjid: 2285000, hjsv: 6};
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144371888-1"></script>
@@ -96,13 +84,12 @@ $final_key = $link_exp[count($link_exp) - 1]
 <body>
 
 <header>
-
     <nav class="fixed w-full top-0 left-0 z-50 bg-white backdrop-filter backdrop-blur-xl main-navigation-wrapper lg:bg-transparent ">
         <div class="container">
             <div class="main-navigation flex justify-between content-center items-center flex-wrap py-4">
                 <div class="logo w-28">
                     <a href="/">
-                        <img src="assets/img/iroshandezilva-logo.svg" alt="Iroshan De Zilva UI UX Designer">
+                        <img src="<?php echo site_url('assets/img/iroshandezilva-logo.svg')?>" alt="Iroshan De Zilva UI UX Designer">
                     </a>
                 </div>
                 <button class="navbar-toggler menu ripplemenu block lg:hidden">
@@ -116,12 +103,12 @@ $final_key = $link_exp[count($link_exp) - 1]
                     <div class="navigation">
                         <div class="menu-wrapper flex">
                             <div class="menu-item <?php echo ($final_key == "" || $final_key == "index.php") ? 'active' : null ?>">
-                                <a class="k-hover2" href="index.php">Home</a></div>
-                            <div class="menu-item <?php echo ($final_key == "about-me" || $final_key == "about-me.php") ? 'active' : null ?>">
-                                <a class="k-hover3 " href="about-me.php"> About Me</a></div>
-                            <div class="menu-item"><a href="portfolio.php">Portfolio</a></div>
+                                <a class="k-hover2" href="<?php echo site_url('index')?>">Home</a></div>
+                            <div class="menu-item <?php echo ($final_key == "about-me.php" || $final_key == "about-me") ? 'active' : null ?>">
+                                <a class="k-hover3 " href="<?php echo site_url('about-me')?>"> About Me</a></div>
+                            <div class="menu-item"><a href="<?php echo site_url('portfolio.php')?>">Portfolio</a></div>
                             <div class="menu-item
-                        <?php echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?>"><a href="contact-me.php">Contact Me</a></div>
+                        <?php echo ($final_key == "contact-me" || $final_key == "contact-me.php") ? 'active' : null?>"><a href="<?php echo site_url('contact-me.php')?>">Contact Me</a></div>
                         </div>
                     </div>
                 </div>
@@ -134,10 +121,10 @@ $final_key = $link_exp[count($link_exp) - 1]
         <div class="mobilenav-content container pb-4">
             <div class="mobilenav-wrapper">
                 <div class="mobile-menu flex">
-                    <div class="mobile-menu-item"><a href="index.php">Home</a></div>
-                    <div class="mobile-menu-item"><a href="about-me.php"> About Me</a></div>
-                    <div class="mobile-menu-item"><a href="portfolio.php">Portfolio</a></div>
-                    <div class="mobile-menu-item"><a href="contact-me.php">Contact Me</a></div>
+                    <div class="mobile-menu-item"><a href="index">Home</a></div>
+                    <div class="mobile-menu-item"><a href="about-me"> About Me</a></div>
+                    <div class="mobile-menu-item"><a href="portfolio">Portfolio</a></div>
+                    <div class="mobile-menu-item"><a href="contact-me">Contact Me</a></div>
                 </div>
             </div>
             <div class="mobilenav-social text-center">

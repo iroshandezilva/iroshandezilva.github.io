@@ -39,10 +39,6 @@ module.exports = {
       boxShadow: {
         'card': '40px 30px 50px 0px rgba(11, 34, 56, 0.07)',
       },
-      borderRadius: {
-        'card': '20px',
-        'full': '9999px',
-      },
     },
   },
   variants: {

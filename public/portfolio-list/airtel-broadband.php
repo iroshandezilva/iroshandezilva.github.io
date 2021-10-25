@@ -3,7 +3,7 @@
 $title = "Helakuru Keyboard Redesign";
 
 
-include "../header-inner.php"; ?>
+include "../header.php"; ?>
 
 <div class="section section-six relative py-70 pt-40  bg-white text-center">
     <div class="section-wrapper">
@@ -58,12 +58,12 @@ include "../header-inner.php"; ?>
     <div class="section-wrapper">
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
-                <div class="flex justify-center">
+                <div class="flex justify-center space-x-3">
                     <?php include "../elements/social-links.php" ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<?php include "../footer-inner.php";
+<?php include "../footer.php";
 ?>

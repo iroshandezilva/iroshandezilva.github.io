@@ -39,7 +39,7 @@ include "header.php"; ?>
         <div class="container relative">
             <div class="max-w-3xl mx-auto">
                 <small class="text-center flex justify-center">How I work</small>
-                <h4 class=" ttext-4xl text-center mb-10 text-base-black font-bold">Profitable design</h4>
+                <h4 class="text-4xl text-center mb-10 text-base-black font-bold">Profitable design</h4>
                 <p class="mb-10">As a designer with business background I’m always focusing on creating experiences,
                     which are delightful and profitable at the same time. I start every job with detailed questions
                     about your business and customers before I even start thinking about any design solutions.</p>
@@ -94,7 +94,7 @@ include "header.php"; ?>
                             href="mailto:hello@iroshandezilva.com">email</a> or a <a target="_blank"
                                                                                      href="https://twitter.com/iroshandezilva">tweet</a>.
                 </h6>
-                <div class="flex justify-center">
+                <div class="flex justify-center space-x-3">
                     <?php include "elements/social-links.php" ?>
                 </div>
             </div>

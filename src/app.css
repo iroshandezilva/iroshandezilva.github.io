@@ -7,6 +7,19 @@
 @import "public/assets/css/mixing.scss";
 
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+body::-webkit-scrollbar {
+   @apply w-1.5;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-base-primary-500 rounded-xl;
+}
+
 body {
     @apply relative w-full h-full bg-base-primary-50 text-xl leading-9 font-sans text-gray-500;
 }
@@ -72,7 +85,7 @@ h3{
 
 
 .card {
-    @apply bg-white p-8 rounded-card shadow-card;
+    @apply bg-white p-8 rounded-2xl shadow-card;
 }
 
 .hi-content {
@@ -270,6 +283,7 @@ element.style {
     opacity: 1;
 }
 .toast {
+    @apply z-20;
     max-width: 350px;
     overflow: hidden;
     position: fixed;
@@ -280,8 +294,7 @@ element.style {
     padding: 1.25rem 2rem;
     background-color: #ffffff;
     backdrop-filter: blur(0);
-    z-index: 9;
-    -webkit-transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
+       -webkit-transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
     -moz-transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
     -o-transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
     -ms-transition: 1.2s cubic-bezier(0.86, 0, 0.07, 1) !important;
