@@ -13,9 +13,9 @@
             </div>
             <div class="">
                 <div class="hi-wrapper">
-                    <div class="hi-content shadow-card  rounded-card absolute w-10/12 xl:w-3/12 md:w-5/12  lg:w-4/12 flex top  items-center  justify-center">
+                    <div class="hi-content shadow-card  rounded-2xl absolute w-10/12 xl:w-3/12 md:w-5/12  lg:w-4/12 flex top  items-center  justify-center">
                        <div class="relative w-full">
-                           <div class=" flex relative z-10 items-center bg-white p-4 lg:p-8 rounded-2xl">
+                           <div class="flex relative z-10 items-center bg-white p-4 lg:p-8 rounded-2xl">
                                <div class="lg:w-3/12 w-2/12 mr-3">
                                    <img src="assets/img/hi-emoji.svg" alt="Hi Emoji">
                                </div>
@@ -24,7 +24,7 @@
                                    <h1 class=" size text-xl lg:text-2xl font-bold text-black">Iroshan De Zilva</h1>
                                </div>
                            </div>
-                           <div class="absolute h-full rounded-card  w-full -bottom-1 left-0  bg-base-primary-200"></div>
+                           <div class="absolute h-full rounded-2xl  w-full -bottom-1 left-0  bg-base-primary-200"></div>
                        </div>
                     </div>
                 </div>
