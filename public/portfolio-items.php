@@ -6,6 +6,36 @@ if (!isset($home)) {
 
 $data = [
     array(
+        'title' => 'Xacter - NFT Resources Landing page',
+        'tags' => 'UI Design / Concept',
+        'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/16903911/media/2d7e17a94b408b52c4f408079375cdaa.png?compress=1&resize=1200x900',
+        'alt' => 'Xacter - NFT Resources Landing page',
+        'link-text' => 'View Details',
+        'link' => 'portfolio-list/xacter-website',
+        'private' => false
+    ),
+
+    array(
+        'title' => 'Foodies - Healthy Food Landing Page',
+        'tags' => 'UI Design / Concept',
+        'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/16903929/media/3e39291c35b39cbd2f4564152327744f.png?compress=1&resize=1200x900',
+        'alt' => 'Foodies - Healthy Food Landing Page',
+        'link-text' => 'View Details',
+        'link' => 'portfolio-list/foodies-website',
+        'private' => false
+    ),
+
+    array(
+        'title' => 'Zatckup - NFT Resources Landing Page',
+        'tags' => 'UI Design / Concept',
+        'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/16903944/media/783c2116964328bdde29a0b6fd0f8b57.png?compress=1&resize=1200x900',
+        'alt' => 'Zatckup - NFT Resources Landing Page',
+        'link-text' => 'View Details',
+        'link' => 'portfolio-list/zatckup-nft-website',
+        'private' => false
+    ),
+
+    array(
         'title' => 'Helakuru Keyboard Redesign',
         'tags' => 'UI Design / Redesign',
         'thumb' => 'https://cdn.dribbble.com/users/3609611/screenshots/14513813/media/ce4f5adf4dc1121e6bc25dad54eb60e0.png?compress=1&resize=1200x900',
@@ -14,6 +44,7 @@ $data = [
         'link' => 'portfolio-list/helakuru-keyboard-redesign',
         'private' => false
     ),
+
     array(
         'title' => 'Allianz Insurance Sri Lanka App',
         'tags' => 'UI Design',
@@ -23,6 +54,7 @@ $data = [
         'link' => 'portfolio-list/allianz-insurance-sri-lanka-app',
         'private' => false
     ),
+
     array(
         'title' => 'Airtel Broadband Concept iOS App',
         'tags' => 'UI Design / Concept',

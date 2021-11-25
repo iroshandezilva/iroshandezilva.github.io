@@ -74,6 +74,7 @@ include 'functions.php';
         gtag('config', 'UA-144371888-1');
     </script>
 
+    <meta name="p:domain_verify" content="7bdee4b42607c6f30f80aa60156236ba"/>
 
 </head>
 <?php
